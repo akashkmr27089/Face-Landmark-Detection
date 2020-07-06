@@ -23,5 +23,6 @@ for face in faces:
 		cv2.circle(img=img, center=(x,y), radius=3, color=(0,255,0), thickness=-1)
 
 cv2.imshow(winname="Face", mat=img)
+cv2.imwrite("resulted_face.jpg", img)
 cv2.waitKey(delay=0)
 cv2.destroyAllWindows()
