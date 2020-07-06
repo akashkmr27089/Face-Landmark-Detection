@@ -1,6 +1,8 @@
 # Face-Landmark-Detection
 Detect face crutial points. We can use these points for adding objects relative to it.
 
+<img src="./resulted_face.jpg">
+
 **Environment Setup**
 *conda create -n myenv python=3.6
 
