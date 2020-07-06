@@ -4,8 +4,8 @@ import dlib
 
 detector = dlib.get_frontal_face_detector()
 
-predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
-img = cv2.imread("face.png")
+predictor = dlib.shape_predictor("./shape_predictor_68_face_landmarks.dat")
+img = cv2.imread("face.jpg")
 
 gray = cv2.cvtColor(src=img, code=cv2.COLOR_BGR2GRAY)
 faces = detector(gray)
