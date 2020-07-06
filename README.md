@@ -5,6 +5,10 @@ Requirement:
   `pip install opencv-python`
   `pip install dlib`
   'pip install numpy'
+
+For Anaconda Environment: 
+  `conda install -c menpo dlib`
+  `conda install -c conda-forge imutils`
   
  **Dlib requires python 3.6**
   
