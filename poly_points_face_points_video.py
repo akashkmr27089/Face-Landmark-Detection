@@ -102,8 +102,8 @@ while True:
 		cv2.polylines(img, [pts], False, (0,255,255))
 		
 		cv2.imshow(winname="Face", mat=img)
-		if cv2.waitKey(delay=1) == 27:
-			break
+	if cv2.waitKey(delay=1) == 27:
+		break
 
 cap.release()
 cv2.destroyAllWindows()

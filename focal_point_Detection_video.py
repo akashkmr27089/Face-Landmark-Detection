@@ -25,8 +25,8 @@ while True:
 			cv2.circle(img=frame, center=(x,y), radius=1, color=(0,255,0), thickness=-2)
 
 		cv2.imshow(winname="Face", mat=frame)
-		if cv2.waitKey(delay=1) == 27:
-			break
+	if cv2.waitKey(delay=1) == 27:
+		break
 
 cap.release()
 cv2.destroyAllWindows()	
