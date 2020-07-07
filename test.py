@@ -20,8 +20,8 @@ for face in faces:
     #cv2.rectangle(img=img, pt1=(x1, y1), pt2=(x2, y2), color=(0, 255, 0), thickness=4)
     landmarks = predictor(image=gray, box=face)
     for n in range(0,68):
-	x = landmarks.part(n).x
-	y = landmarks.part(n).y
+	    x = landmarks.part(n).x
+	    y = landmarks.part(n).y
 # show the image
 cv2.imshow(winname="Face", mat=img)
 # Wait for a key press to exit
